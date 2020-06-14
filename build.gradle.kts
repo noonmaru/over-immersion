@@ -38,8 +38,8 @@ tasks {
             expand(project.properties)
         }
     }
-//    create<Copy>("distJar") {
-//        from(jar)
-//        into("W:\\Servers\\sample\\plugins")
-//    }
+    create<Copy>("distJar") {
+        from(jar)
+        into("W:\\Servers\\200614-over_immersion\\plugins")
+    }
 }
